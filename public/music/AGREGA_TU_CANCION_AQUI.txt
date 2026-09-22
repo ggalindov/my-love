@@ -1,0 +1,8 @@
+Pon aquí tu canción en MP3 con el nombre:  song.mp3
+
+Ruta completa: public/music/song.mp3
+
+Sugerencias:
+- Perfect - Ed Sheeran
+- All of Me - John Legend
+- A Thousand Years - Christina Perri
