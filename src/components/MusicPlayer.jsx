@@ -312,8 +312,8 @@ export default function MusicPlayer() {
 
       {/* Título y artista */}
       <div className="lux-info">
-        <div className="lux-title">Chiquita</div>
-        <div className="lux-artist">Camilo 💕</div>
+        <div className="lux-title" title="Como un sello (Cantares 8:6-7)">Como un sello</div>
+        <div className="lux-artist">Darviin 💕</div>
       </div>
 
       {/* Barra de progreso interactiva con tiempo */}
