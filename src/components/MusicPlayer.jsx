@@ -11,7 +11,8 @@ import React, { useState, useEffect, useRef } from 'react';
 function getAudioInstance() {
   if (typeof window === 'undefined') return null;
   if (!window.__loveAudio) {
-    const audio = new Audio('/music/song.mp3');
+    const audioUrl = new URL('music/song.mp3', window.location.href).href;
+    const audio = new Audio(audioUrl);
     audio.loop = true;
     audio.preload = 'auto';
     window.__loveAudio = audio;
